@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading LangFlow</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        .loading-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 480px;
+            height: 230px;
+            padding: 15px;
+            background-color: #1E3A8A; /* hsl(248 99% 53%); /* electric blue */
+            box-shadow: 0 0px 12px rgba(0, 0, 0.0, 0.8);
+            position: relative;
+        }
+        .loading-header, .loading-footer {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            height: 32px;
+        }
+        .loading-icon {
+            width: 32px;
+            height: 32px;
+            margin-right: 10px;
+            fill: white;
+        }
+        .loading-name {
+            font-size: 24px;
+            color: white;
+        }
+        .loading-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+            width: 100%;
+        }
+        .loading-title {
+            font-size: 36px;
+            color: white;
+            margin: 0;
+        }
+        .loading-subtitle {
+            font-size: 18px;
+            color: white;
+            margin: 10px 0;
+        }
+        .loading-items {
+            text-align: left;
+            font-size: 14px;
+            color: white;
+            position: absolute;
+            left: 15px;
+            bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-container">
+        <div class="loading-header">
+            <img src="langflow-icon-b.svg" alt="LangFlow Icon" class="loading-icon">
+            <div class="loading-name">LangFlow</div>
+        </div>
+        <div class="loading-content">
+            <div class="loading-title">LangFlow</div>
+            <div class="loading-subtitle">AI/ML Framework</div>
+        </div>
+        <div class="loading-footer">
+            <div class="loading-items">
+                <div>Loading items...</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
