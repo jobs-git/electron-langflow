@@ -1,4 +1,4 @@
-# electron-langflow
+# langflow-electron
 Electron app for langflow
 
 Added static loading window
